@@ -13,6 +13,7 @@ function App() {
       <Header />
       <Routes>
         <Route path="/" element={<Products />} />
+        <Route path="react-routes" element={<Products />} />
         <Route path="product/:id" element={<Product />} />
         <Route path="contact" element={<Contact />} />
         <Route path="*" element={<NotFound />} />
