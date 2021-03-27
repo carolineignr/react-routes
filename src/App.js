@@ -9,7 +9,7 @@ import { NotFound } from './components/NotFound';
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/react-routes">
       <Header />
       <Routes>
         <Route path="/" element={<Products />} />
