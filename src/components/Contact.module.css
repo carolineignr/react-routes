@@ -1,0 +1,47 @@
+section {
+  width: 100%;
+  overflow: hidden;
+}
+
+.contact {
+  margin: 50px auto;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.contact img {
+  width: 350px;
+  height: 500px;
+  border-radius: 8px;
+  background-size: cover;
+}
+
+.contact h2 {
+  font-weight: bold;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.contactInfos {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  margin: 0 40px;
+  align-items: flex-start;
+}
+
+.contactInfos span {
+  margin: 5px 0;
+  font-size: 1.1em;
+}
+
+.contactInfos span::before {
+  content: '';
+  display: inline-block;
+  width: 20px;
+  height: 2px;
+  margin-right: 5px;
+  background-color: gray;
+}
+

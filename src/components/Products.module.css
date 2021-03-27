@@ -1,0 +1,29 @@
+section {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+.product {
+  flex-shrink: 0;
+  width: 200px;
+  height: 350px;
+  overflow: hidden;
+  margin: 10px 5px;
+  font-size: 1.3em;
+  font-weight: bold;
+  font-family: 'Times New Roman', Times, serif;
+  color: black;
+}
+
+.product p {
+  margin-top: 3px;
+}
+
+.product img {
+  background-size: cover;
+  width: 200px;
+  height: 300px;
+  border-radius: 8px;
+}
